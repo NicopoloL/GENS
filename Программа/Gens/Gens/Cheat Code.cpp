@@ -4,7 +4,7 @@
 
 // Класс для управления чит-кодами и их эмуляции
 class CheatCodeManager {
-    private:
+private:
     std::map<std::string, bool> cheatCodes; // Мапа для хранения активных чит-кодов
 
 public:
