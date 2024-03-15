@@ -2,6 +2,6 @@
 class GameDatabase {
 public:
     void retrieveGameInfo(std::string gameTitle) {
-        //код для получения информации о совместимых играх Sega Genesis
+        //РєРѕРґ РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃРѕРІРјРµСЃС‚РёРјС‹С… РёРіСЂР°С… Sega Genesis
     }
 };

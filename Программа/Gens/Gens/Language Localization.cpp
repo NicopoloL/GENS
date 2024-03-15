@@ -2,6 +2,6 @@
 class LanguageLocalization {
 public:
     void translateInterfaceToLanguage(std::string language) {
-        //код для перевода интерфейса эмулятора на определенный язык
+        //РєРѕРґ РґР»СЏ РїРµСЂРµРІРѕРґР° РёРЅС‚РµСЂС„РµР№СЃР° СЌРјСѓР»СЏС‚РѕСЂР° РЅР° РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЏР·С‹Рє
     }
 };

@@ -2,10 +2,10 @@
 
 struct SoundBlasterEmulator {
     void playSound(const std::string& sound) {
-        // Здесь должен быть код для воспроизведения звука real Sound Blaster
+        // Р—РґРµСЃСЊ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РєРѕРґ РґР»СЏ РІРѕСЃРїСЂРѕРёР·РІРµРґРµРЅРёСЏ Р·РІСѓРєР° real Sound Blaster
     }
 
     void processTiming(const std::string& title) {
-        // Здесь должен быть код обработки тайминга титров
+        // Р—РґРµСЃСЊ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РєРѕРґ РѕР±СЂР°Р±РѕС‚РєРё С‚Р°Р№РјРёРЅРіР° С‚РёС‚СЂРѕРІ
     }
 };
