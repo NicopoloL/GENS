@@ -5,10 +5,10 @@ struct RomLoader {
     std::string romFilePath;
 
     void loadRomFile() {
-        //Загрузка файла 
+        //Р—Р°РіСЂСѓР·РєР° С„Р°Р№Р»Р° 
     }
 
     void emulateGame() {
-        //Эмуляция игры
+        //Р­РјСѓР»СЏС†РёСЏ РёРіСЂС‹
     }
 };

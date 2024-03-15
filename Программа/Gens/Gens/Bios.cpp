@@ -1,6 +1,6 @@
 class BiosEmulator {
 public:
     void emulateSegaGenesisBios() {
-        //Здесь код для запуска Sega Genesis BIOS
+        //Р—РґРµСЃСЊ РєРѕРґ РґР»СЏ Р·Р°РїСѓСЃРєР° Sega Genesis BIOS
     }
 };
