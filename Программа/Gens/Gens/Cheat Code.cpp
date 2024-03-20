@@ -1,26 +1,48 @@
+/**
+ * @brief Содержит объявление класса CheatCodeManager для управления чит-кодами в эмуляторе GENS v2.11.
+ */
+
 #include <iostream>
 #include <string>
 #include <map>
 
-// Класс для управления чит-кодами и их эмуляции
+/**
+ * @class CheatCodeManager
+ * @brief Класс для управления чит-кодами и их эмуляцией.
+ */
 class CheatCodeManager {
 private:
-    std::map<std::string, bool> cheatCodes; // Мапа для хранения активных чит-кодов
+    std::map<std::string, bool> cheatCodes; /**< Отображение для хранения активных чит-кодов.*/
 
 public:
-    void addCheatCode(const std::string& code) {
-        // Метод для добавления чит-кода
-    }    
-    void removeCheatCode(const std::string& code) {
-        // Метод для удаления чит-кода
-    }    
-    bool isCheatCodeActivated(const std::string& code) {
-        // Метод для проверки активации чит-кода
-    }    
-    void activateCheatCode(const std::string& code) {
-        // Метод для активации чит-кода
-    }    
-    void deactivateCheatCode(const std::string& code) {
-        // Метод для деактивации чит-кода
-    }
+    /**
+     * @brief Добавляет чит-код в менеджер.
+     * @param code Чит-код для добавления.
+     */
+    void addCheatCode(const std::string& code);
+
+    /**
+     * @brief Удаляет чит-код из менеджера.
+     * @param code Чит-код для удаления.
+     */
+    void removeCheatCode(const std::string& code);
+
+    /**
+     * @brief Проверяет, активирован ли чит-код.
+     * @param code Проверить чит-код.
+     * @return True, если чит-код активирован, False в противном случае.
+     */
+    bool isCheatCodeActivated(const std::string& code);
+
+    /**
+     * @brief Активирует чит-код.
+     * @param code Код чита для активации.
+     */
+    void activateCheatCode(const std::string& code);
+
+    /**
+     * @brief Отключает чит-код.
+     * @param code Чит-код для деактивации.
+     */
+    void deactivateCheatCode(const std::string& code);
 };

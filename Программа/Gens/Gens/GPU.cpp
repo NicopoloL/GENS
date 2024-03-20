@@ -1,10 +1,25 @@
-struct GPUCentral{
-	void executelnstruction(int opcode) {
-		// Здесь должна быть реализация выполнения инструкции
-	}
+/**
+ * @brief Структура для центрального процессора графического процессора (GPU)
+ */
+struct GPUCentral {
+    /**
+     * @brief Выполняет инструкцию GPU по заданному коду
+     * 
+     * @param opcode Код инструкции
+     */
+    void executelnstruction(int opcode) {
+        // Здесь должна быть реализация выполнения инструкции
+    }
 };
-struct GPUGraphic{
-	void renderFrame() {
-		// Эмуляция вывода изображения на экран
-	}
+
+/**
+ * @brief Структура для графического процессора (GPU)
+ */
+struct GPUGraphic {
+    /**
+     * @brief Отображает кадр на экране
+     */
+    void renderFrame() {
+        // Эмуляция вывода изображения на экран
+    }
 };
