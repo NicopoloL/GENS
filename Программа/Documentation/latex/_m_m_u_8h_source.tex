@@ -1,0 +1,35 @@
+\doxysection{MMU.\+h}
+\hypertarget{_m_m_u_8h_source}{}\label{_m_m_u_8h_source}\index{Программа/Gens/Gens/MMU.h@{Программа/Gens/Gens/MMU.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_memory_block}{MemoryBlock}}\ \{}
+\DoxyCodeLine{00007\ \ \ \ \ std::vector<uint8\_t>\ \mbox{\hyperlink{struct_memory_block_aff0be8ae3c3cf25c9e63d8452a50afb6}{data}};\ }
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_memory_block_a6e10c8cc37e572d79614770bf38a19a8}{readOnly}};\ }
+\DoxyCodeLine{00009\ \};}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_m_m_u}{MMU}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ std::vector<MemoryBlock>\ memory;\ }
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_m_m_u_a3cc26755183540beee71619d7549b189}{MMU}}()\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Инициализация\ памяти\ Sega\ Genesis}}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ memory.resize(65536);\ \textcolor{comment}{//\ Общий\ объем\ памяти}}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Заполнение\ памяти\ данными}}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ ...}}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Назначение\ регионов\ памяти\ как\ доступных\ только\ для\ чтения}}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ ...}}
+\DoxyCodeLine{00029\ \ \ \ \ \}}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00036\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{class_m_m_u_a4a5f0fba72478dd4d0dc0a49318b5778}{readByte}}(uint32\_t\ address)\ \{}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Чтение\ байта\ из\ памяти\ по\ адресу\ address}}
+\DoxyCodeLine{00038\ \ \ \ \ \}}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_m_m_u_a506ad95d53ba85e72418c37705056d77}{writeByte}}(uint32\_t\ address,\ uint8\_t\ value)\ \{}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Запись\ байта\ value\ в\ память\ по\ адресу\ address}}
+\DoxyCodeLine{00047\ \ \ \ \ \}}
+\DoxyCodeLine{00048\ \};}
+
+\end{DoxyCode}

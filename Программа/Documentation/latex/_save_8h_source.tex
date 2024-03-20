@@ -1,0 +1,26 @@
+\doxysection{Save.\+h}
+\hypertarget{_save_8h_source}{}\label{_save_8h_source}\index{Программа/Gens/Gens/Save.h@{Программа/Gens/Gens/Save.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_game_state}{GameState}}\ \{}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_game_state_ae455adb5fd873dd748ffae2db6255f87}{level}};\ }
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_game_state_a0dfc0a1d78577160646acae8a1f81a51}{score}};\ }
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_game_state_aaeddd86459e243706304b5d296849932}{isPaused}};\ }
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{comment}{//\ Другие\ переменные,\ определяющие\ состояние\ игры}}
+\DoxyCodeLine{00012\ \};}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_save_state_manager}{SaveStateManager}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:\ \ \ \ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_save_state_manager_a3c4aed136364331772e31cc39af073ef}{saveState}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{struct_game_state}{GameState}}\&\ gameState,\ \textcolor{keyword}{const}\ std::string\&\ fileName)\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Сохранение\ текущего\ состояния\ игры\ в\ файл}}
+\DoxyCodeLine{00026\ \ \ \ \ \}}
+\DoxyCodeLine{00027\ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{static}\ \mbox{\hyperlink{struct_game_state}{GameState}}\ \mbox{\hyperlink{class_save_state_manager_a25f79618ef075e9e6043fc67ba6ad9ba}{loadState}}(\textcolor{keyword}{const}\ std::string\&\ fileName)\ \{}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Восстановление\ состояния\ игры\ из\ файла}}
+\DoxyCodeLine{00035\ \ \ \ \ \}}
+\DoxyCodeLine{00036\ \};}
+
+\end{DoxyCode}
