@@ -152,6 +152,32 @@
     <ClCompile Include="Sound Blaster.cpp" />
     <ClCompile Include="Video Renderer.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APU.h" />
+    <ClInclude Include="Auto-update Manager.h" />
+    <ClInclude Include="Bios.h" />
+    <ClInclude Include="Cheat Code.h" />
+    <ClInclude Include="Configuration Manager.h" />
+    <ClInclude Include="Debugging Tools.h" />
+    <ClInclude Include="Frame Limiter.h" />
+    <ClInclude Include="Game Database.h" />
+    <ClInclude Include="Game Genie Emulator.h" />
+    <ClInclude Include="GPU.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="Input Mapper.h" />
+    <ClInclude Include="Input Recorder.h" />
+    <ClInclude Include="Language Localization.h" />
+    <ClInclude Include="MMU.h" />
+    <ClInclude Include="Netplay Lobby.h" />
+    <ClInclude Include="Network Play.h" />
+    <ClInclude Include="Rewind Feature.h" />
+    <ClInclude Include="ROM.h" />
+    <ClInclude Include="Save File Converter.h" />
+    <ClInclude Include="Save.h" />
+    <ClInclude Include="Screen Capture.h" />
+    <ClInclude Include="Sound Blaster.h" />
+    <ClInclude Include="Video Renderer.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
